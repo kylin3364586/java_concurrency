@@ -1,0 +1,22 @@
+package com.jike.pwd;
+
+import java.util.Base64;
+
+/**
+ * @author kylin
+ * @version 1.0.0
+ * @Description
+ * @createTime 2022年04月29日 15:01:00
+ */
+public class Test1 {
+
+    public static void main(String[] args) {
+
+        String str = "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcaXORIaOOTQAgEz6TS0D2RybHEkcywZKUI+mi3c/Qz3LqriUV1MIrozmE7CRSAolnM52BHg+PaKj/9RRmFFwpsyBQ+kmamgLj6UlIsL0/bRX5u4Supg2QwCNS7km03Kgu7ZZed06dtK+z/3sGmx2GUfptdLBY0EwuR2GFgnFgglGLICGwADNAWRHqJ5U76S0Opzli8b9iGqESPXDLW60ikxLxTNiTIOJLfWjz8U89rnj+h9a9hG84y7b1DnkHu2H5a+ntbgveAMreQ+nJ+sCmjz1JjMkfgWpFxr3bQHlwmkpDg1IRXw0mZepWk1kfzAQ3nQiPiYgsJ4YLq6AhoG2dAgMBAAECggEAFKWK3s6M83zQlmtT6EeXxKqxwLd19Io+2hU/gwM6qnqn1bi1JoOWOgJq1lQBm13AW4IhuWiJb0nGfTsRvUPUwqBllKrlSmYoGYOy68iAwr2YmAWbxx4eTkw+nXTc/+XcwY0VO1UOaJzwUJdZ2w5gwFlT8Fzl5mNgmv9LLT+BzdZRCCVoxRMjRTCt5b+swnxtx0TiUe2HxYn2yLZzsaZshb2zSklqFMK62idvhK99BkD66uZQL5ezVmHAoLrP/v1ATADU8UbHOIMd/og71U+zTxT/vayV+90DBfplcswgCVjrLkUd/NA+jc6jW+UeF5AsYVxU57BfDaCeEdhKQ6RgYQKBgQDX4FWMrF67YsQazXMyldUoJh9OFmE6WqKt32Pta8zDtT+Bd1n7Je9rVs9bkTTehcDGUEkfnFzlYp4DR7l+e22z3RzE9xoYnF5X1r2OsNMYxrhZZIFG2XcljP90GaVbRmnIfSjyoJX2m989jm9ZVspZ8vMQ5p65x7HKIdJKJkcCVQKBgQC5e7ohpoHxTR2PJJa4GwUgaH8c5phXP5UtYs+tNpl4loqbvsI8Bt6thtsKsHHCQH7IQbl10qZ9b2crTZbFDTpv13HjDsd2ZjrVOdMMIXvqUJNd2lKwCf+HqLoqj4T1V/ChwhU9BvUy44Det50831cwAg+boNSXHVw0hD/HrRbWKQKBgQDDb/GDfbn146CuszmLnmJwCrNkupYjglKtHwUUuPeUZs6royXvXZS3lMv9liRLIMQ5xg2tdJ4VfYaYaaLhg1T59UBKgXs6tLYkx+CtAiDa2W2kYH05az+W22OZ9G3jiIfUXptnrUKXFN6yl/Tu6MghTvYHYwJoJwYqfRwozSaUUQKBgF+SCM3d5YZXnatrxt0FzxZrwVM63bPW5x6Dk05Em78ukiy9lYcoYwQ2QBa542Obp7e3Zb/30iE/jYEacV0G+900vVGpA81Vz2qeaMgPWLHa4pOxMnnSLP/RSFs1p+Ric3JldlwDgcO+xV/8a+A5k8sAxNoDfIaAckn8+oAAB4xBAoGAezHnVW/Ks7UQYmaSs6p5bL/e3gAvoa7Ci+Oe37NwVrv4ZE1qMVR0KYRZMx/7Ysq4htycjZAuBmc8K2nnXhIF5wuhGdkQNcf4JMQ2/4Yb6syr1a9r6LVdD9K6zyZ1IjcLvMRPYYQJH99nBBeVX1sf0m4J0c5RcrN2IiCWBX0NMpo=";
+
+        byte[] encode = Base64.getDecoder().decode(str.getBytes());
+        System.out.println(new String(encode));
+
+    }
+}
+

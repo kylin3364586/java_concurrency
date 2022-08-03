@@ -28,8 +28,8 @@ public class CustomClassLoader extends ClassLoader {
     }
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException {
-
-        Class<?> myClass = new CustomClassLoader().findClass("com.jike.jvm.classloader.MyClass");
+        //只能加载.class文件
+        Class<?> myClass = new CustomClassLoader().findClass("com.jike.jvm.classloader.MyClass.class");
         MyClass myClass1 = (MyClass) myClass.newInstance();
         System.out.println(myClass1.toString());
 
