@@ -8,6 +8,16 @@
     <bean id="user" class="org.example.thinking.in.spring.ioc.overview.dependency.domain.User">
         <property name="id" value="1"/>
         <property name="name" value="haha"/>
+        <property name="city" value="CHENGDU"/>
+        <property name="workerCity" value="BEIJING,CHENGDU"/>
+        <!--<property name="lifeCity" value="CHENGDU,HANGZHOU"/>-->
+        <property name="lifeCity">
+            <list>
+                <value>CHENGDU</value>
+                <value>HANGZHOU</value>
+            </list>
+        </property>
+        <property name="configFileLocation" value="classpath:META-INF/user-config.properties"/>
     </bean>
 
     <bean id="superUser" class="org.example.thinking.in.spring.ioc.overview.dependency.domain.SuperUser" parent="user" primary="true">
