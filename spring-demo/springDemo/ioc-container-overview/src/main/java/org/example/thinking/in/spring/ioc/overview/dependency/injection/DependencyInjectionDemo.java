@@ -6,6 +6,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * 依赖注入示例
+ * 有多少种依赖注入方式？
+ * 1.构造器注入       用于：少依赖、强制依赖
+ * 2.Setter注入      用于：多依赖、非强制依赖
+ * 3.字段注入        开发比较便利
+ * 4.方法注入        主要做声明、例如@Bean
+ * 5.接口回调注入     生命周期回调
  *
  * @author kylin
  * @version 1.0.0
