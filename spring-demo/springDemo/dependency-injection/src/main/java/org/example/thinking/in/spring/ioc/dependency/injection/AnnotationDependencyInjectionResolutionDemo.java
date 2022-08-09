@@ -1,16 +1,14 @@
 package org.example.thinking.in.spring.ioc.dependency.injection;
 
 import org.example.thinking.in.spring.ioc.overview.dependency.domain.User;
-import org.springframework.beans.factory.ObjectFactory;
-import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Lazy;
 
+import javax.inject.Inject;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
 
 /**
  * 注解驱动的依赖注入过程
@@ -40,6 +38,9 @@ public class AnnotationDependencyInjectionResolutionDemo {
     @Autowired
     private Optional<User> userOptional;
 
+    @Inject
+    private User injectUser;
+
     public static void main(String[] args) {
         //创建BeanFactory容器
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
@@ -59,6 +60,7 @@ public class AnnotationDependencyInjectionResolutionDemo {
         AnnotationDependencyInjectionResolutionDemo demo = applicationContext.getBean(AnnotationDependencyInjectionResolutionDemo.class);
 
         System.out.println("user:" + demo.user);
+        System.out.println("injectUser:" + demo.injectUser);
         System.out.println("userMap:" + demo.userMap);
         System.out.println("userOptional:" + demo.userOptional);
 
