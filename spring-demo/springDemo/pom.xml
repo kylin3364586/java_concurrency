@@ -25,6 +25,7 @@
         <module>spring-bean</module>
         <module>dependency-lookup</module>
         <module>dependency-injection</module>
+        <module>dependency-source</module>
     </modules>
 
     <!--版本管理-->
