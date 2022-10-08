@@ -100,7 +100,7 @@ public class User implements BeanNameAware {
 
     @PreDestroy
     public void destroy(){
-        System.out.println("用户 Bean ["+ beanName +"] 销毁...");
+        System.out.println("用户 Bean ["+ beanName +"] 销毁中...");
     }
 
     @Override
