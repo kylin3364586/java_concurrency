@@ -17,10 +17,10 @@ public class BeanLifecycleDemo {
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
         //添加 BeanPostProcessor实现 MyInstantiationAwareBeanPostProcessor
         beanFactory.addBeanPostProcessor(new MyInstantiationAwareBeanPostProcessor());
-        //添加 CommonAnnotationBeanPostProcessor 解决 @PostConstruct
-        beanFactory.addBeanPostProcessor(new CommonAnnotationBeanPostProcessor());
         //添加 MyDestructionAwareBeanPostProcessor 执行销毁前回调
         beanFactory.addBeanPostProcessor(new MyDestructionAwareBeanPostProcessor());
+        //添加 CommonAnnotationBeanPostProcessor 解决 @PostConstruct @PreDestroy
+        beanFactory.addBeanPostProcessor(new CommonAnnotationBeanPostProcessor());
 
         XmlBeanDefinitionReader beanDefinitionReader = new XmlBeanDefinitionReader(beanFactory);
 

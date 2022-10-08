@@ -6,12 +6,14 @@ import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.SmartInitializingSingleton;
 import org.springframework.context.EnvironmentAware;
 import org.springframework.core.env.Environment;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 /**
  * @author kylin
@@ -20,7 +22,7 @@ import javax.annotation.PostConstruct;
  * @createTime 2022年09月01日 09:55:00
  */
 public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFactoryAware, EnvironmentAware,
-        InitializingBean, SmartInitializingSingleton {
+        InitializingBean, SmartInitializingSingleton, DisposableBean {
 
     private final User user;
 
@@ -104,6 +106,23 @@ public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFact
         System.out.println("init() = " + description);
     }
 
+    @PreDestroy
+    public void preDestroy(){
+        this.description = "The user holder V10";
+        System.out.println("preDestroy() = " + description);
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        this.description = "The user holder V11";
+        System.out.println("destroy() = " + description);
+    }
+
+    public void doDestroy(){
+        this.description = "The user holder V12";
+        System.out.println("doDestroy() = " + description);
+    }
+
     @Override
     public String toString() {
         return "UserHolder{" +
@@ -144,4 +163,6 @@ public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFact
     protected void finalize() throws Throwable {
         System.out.println("UserHolder is finalized..");
     }
+
+
 }
