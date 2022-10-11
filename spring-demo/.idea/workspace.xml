@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="372e9672-64b8-472b-948f-230e039ecc8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/rchz/thread/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$2.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2FvpdbkJWbEonUAjuduzCqDtdqJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springDemo" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="372e9672-64b8-472b-948f-230e039ecc8b" name="Default Changelist" comment="" />
+      <created>1665382499495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665382499495</updated>
+      <workItem from="1665382500825" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="293" y="311" key="FileChooserDialogImpl" timestamp="1665382514908">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="293" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1665382514908" />
+  </component>
+</project>
