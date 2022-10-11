@@ -2,7 +2,8 @@
 import json
 
 # filename = 'D:\\ide_workspace\\MyTestPython\\gradle\\recharge\\recharge.json'
-filename = 'D:\\ide_workspace\\MyTestPython\\gradle\\recharge\\11.json'
+# filename = 'D:\\ide_workspace\\MyTestPython\\gradle\\recharge\\11.json'
+filename = 'D:\\ide_workspace\\java_concurrency\\MyTestPython\\gradle\\recharge\\2022_10_11.json'
 with open(filename, 'r', encoding='utf-8') as fp:
     json_data = json.load(fp)
     print('json中的数据：', json_data)
