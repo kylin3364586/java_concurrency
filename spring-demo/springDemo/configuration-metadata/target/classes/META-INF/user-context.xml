@@ -24,6 +24,6 @@
 <!--        <property name="configFileLocation" value="classpath:META-INF/user-config.properties"/>-->
 <!--    </bean>-->
 
-    <users:user id="1" name="凯瑞" city="CHENGDU"/>
+    <users:user id="1" name="凯瑞" city="HANGZHOU"/>
 
 </beans>
