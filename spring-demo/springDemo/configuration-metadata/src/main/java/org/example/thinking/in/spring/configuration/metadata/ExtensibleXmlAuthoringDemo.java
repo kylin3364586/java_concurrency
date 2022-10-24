@@ -16,7 +16,7 @@ public class ExtensibleXmlAuthoringDemo {
     public static void main(String[] args) {
         // 创建 Ioc 底层容器
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
-        // 船舰 XML 资源的 BeanDefinitionReader
+        // 创建 XML 资源的 BeanDefinitionReader
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
         // 加载 XMl 资源
         reader.loadBeanDefinitions("META-INF/user-context.xml");
