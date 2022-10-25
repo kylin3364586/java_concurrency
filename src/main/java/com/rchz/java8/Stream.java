@@ -156,6 +156,33 @@ public class Stream {
 
     }
 
+    @Test
+    public void test8(){
+        List<Integer> firstPeek = new ArrayList<>();
+        List<Integer> secondPeek = new ArrayList<>();
+        List<Integer> result = IntStream.rangeClosed(1, 10)
+                .boxed()
+                .peek(i -> firstPeek.add(i))
+                .filter(i -> i >5)
+                .peek(i -> secondPeek.add(i))
+                .filter(i -> i % 2 == 0)
+                .collect(Collectors.toList());
+        System.out.println("firstPeek:" + firstPeek);
+        System.out.println("secondPeek:" + secondPeek);
+        System.out.println("result:" + result);
+
+    }
+
+    @Test
+    public void test9(){
+        java.util.stream.Stream.of("one", "two", "three", "four")
+                .filter(e -> e.length() > 3)
+                .peek(e -> System.out.println("Filtered value: " + e))
+                .map(String::toUpperCase)
+                .peek(e -> System.out.println("Mapped value: " + e))
+                .collect(Collectors.toList());
+    }
+
 
 
 }
