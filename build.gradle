@@ -21,5 +21,6 @@ dependencies {
     implementation group: 'org.apache.rocketmq', name: 'rocketmq-spring-boot-starter', version: '2.2.0'
     implementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.4.2'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.5.5'
+    implementation group: 'org.apache.rocketmq', name: 'rocketmq-client-java', version: '5.0.0'
 
 }
