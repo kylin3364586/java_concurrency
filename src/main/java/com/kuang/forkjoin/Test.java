@@ -57,7 +57,7 @@ public class Test {
      */
     public static void test3(Long start, Long end){
         long startTime = System.currentTimeMillis();
-
+        //并行流
         long sum = LongStream.range(start, end).parallel().reduce(0,Long::sum);
 
         long endTime = System.currentTimeMillis();
