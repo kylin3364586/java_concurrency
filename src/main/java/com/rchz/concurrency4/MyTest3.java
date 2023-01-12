@@ -4,7 +4,7 @@ package com.rchz.concurrency4;
     volatile关键字
 
     volatile关键字主要有以下三方面作用：
-    1.保证long/double变量的原子性
+    1.不保证变量的原子性
     2.防止指令重排序
     3.实现变量可见性
 
