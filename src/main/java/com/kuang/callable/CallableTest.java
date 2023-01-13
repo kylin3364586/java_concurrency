@@ -5,6 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
+ * 可取消的异步任务
  * @author kylin
  * @version 1.0.0
  * @Description

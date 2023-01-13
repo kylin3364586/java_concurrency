@@ -28,7 +28,7 @@ public class CyclicBarrierDemo {
             new Thread(()->{
                 System.out.println(Thread.currentThread().getName()+"集齐了"+num+"颗龙珠");
                 try {
-                    cyclicBarrier.await();//等待
+                    cyclicBarrier.await();//等待 +1
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (BrokenBarrierException e) {

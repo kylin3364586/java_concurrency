@@ -4,6 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 阻塞队列
  * @author kylin
  * @version 1.0.0
  * @Description
