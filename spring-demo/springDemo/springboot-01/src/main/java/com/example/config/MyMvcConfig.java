@@ -35,4 +35,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
         }
     }
 
+    //测试
+    //DispatcherServlet $ doDispatch -> viewResolvers
+
 }
