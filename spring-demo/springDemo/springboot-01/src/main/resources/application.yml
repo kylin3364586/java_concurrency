@@ -5,3 +5,11 @@ server:
 kylin:
     name: kkkk111222
     age: 26
+
+
+my:
+    pay:
+        app-id: 1645616161
+        ali-pay-public-key: dmsapogfjpmpvge
+        ali-pay-private-key: dsmkomfsk11111
+        notify-url: https://spring.io

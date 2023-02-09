@@ -1,10 +1,11 @@
 package com.example.controller;
 
-import com.kylin.kylinstarter.KylinService;
+import com.kk.paystarter.PayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.kk.kylinstarter.KylinService;
 
 /**
  * 测试自定义starter
@@ -24,5 +25,12 @@ public class TestController {
     @GetMapping
     public String getStarterValue(){
         return "name="+kylinService.getKylinProperties().toString();
+    }
+
+
+
+    @GetMapping("/pay")
+    public String getPayService(){
+        return "payService="+PayService.getPayProperties().toString();
     }
 }

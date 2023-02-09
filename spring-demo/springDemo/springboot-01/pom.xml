@@ -34,7 +34,7 @@
 
         <!--自定义starter-->
         <dependency>
-            <groupId>com.kylin</groupId>
+            <groupId>com.kk</groupId>
             <artifactId>my-test-starter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
