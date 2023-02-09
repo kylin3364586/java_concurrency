@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.kylin.kylinstarter.KylinAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.kk.kylinstarter.KylinAutoConfiguration,\
+  com.kk.paystarter.PayAutoConfiguration

@@ -1,4 +1,4 @@
-package com.kylin.kylinstarter;
+package com.kk.kylinstarter;
 
 /**
  * @author kylin
@@ -15,6 +15,7 @@ public class KylinService {
         KylinService.kylinProperties = kylinProperties;
     }
 
+    //外部调用
     public KylinProperties getKylinProperties() {
         return kylinProperties;
     }

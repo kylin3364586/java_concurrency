@@ -1,4 +1,4 @@
-package com.kylin.kylinstarter;
+package com.kk.kylinstarter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

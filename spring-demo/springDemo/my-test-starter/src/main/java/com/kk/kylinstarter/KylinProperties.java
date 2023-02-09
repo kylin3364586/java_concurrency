@@ -1,4 +1,4 @@
-package com.kylin.kylinstarter;
+package com.kk.kylinstarter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
