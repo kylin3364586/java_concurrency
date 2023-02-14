@@ -8,26 +8,23 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * 读取配置文件属性
  * @author kylin
  * @version 1.0.0
  * @Description
- * @createTime 2023-02-14- 14:14:00
+ * @createTime 2023-02-14- 14:57:00
  */
-public class HelloServlet extends HttpServlet {
+public class ServletDemo03 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         resp.setCharacterEncoding("utf-8");
-        resp.getWriter().print("hello kylin测试");
 
-        //servletContext 设置共享属性
+        /*读取web.xml配置文件属性*/
         ServletContext servletContext = this.getServletContext();
-        servletContext.setAttribute("username", "Servlet测试程序");
-    }
+        String url = servletContext.getInitParameter("url");
+        resp.getWriter().print(url);
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req, resp);
     }
 }

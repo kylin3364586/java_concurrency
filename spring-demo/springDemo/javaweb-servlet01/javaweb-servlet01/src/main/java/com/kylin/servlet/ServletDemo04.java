@@ -8,26 +8,20 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * 转发请求路径
  * @author kylin
  * @version 1.0.0
  * @Description
- * @createTime 2023-02-14- 14:14:00
+ * @createTime 2023-02-14- 14:57:00
  */
-public class HelloServlet extends HttpServlet {
+public class ServletDemo04 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        resp.setCharacterEncoding("utf-8");
-        resp.getWriter().print("hello kylin测试");
 
-        //servletContext 设置共享属性
+        /*04转发到 /gp*/
         ServletContext servletContext = this.getServletContext();
-        servletContext.setAttribute("username", "Servlet测试程序");
-    }
+        servletContext.getRequestDispatcher("/gp").forward(req,resp);
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req, resp);
     }
 }
