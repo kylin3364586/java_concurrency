@@ -66,4 +66,13 @@
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>helloJsp</servlet-name>
+        <jsp-file>/hello.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloJsp</servlet-name>
+        <url-pattern>/helloJsp</url-pattern>
+    </servlet-mapping>
 </web-app>
