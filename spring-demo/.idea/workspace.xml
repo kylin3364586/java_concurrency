@@ -2,9 +2,149 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="372e9672-64b8-472b-948f-230e039ecc8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/main/java/com/rchz/thread/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/classes/com/jike/demo/MyThread$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyFieldInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyInjectionResolutionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyMethodInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/ApiDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/ApiDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AutowiringByNameDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AutowiringConstructorDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AwareInterfaceDependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/LazyAnnotationDependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/QualifierAnnotationDependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/UserHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/XmlDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/XmlDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/annotation/InjectedUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/annotation/MyAutowired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/annotation/UserGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/mybatis/target/classes/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/mybatis/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/mybatis/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/mybatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/springboot-04/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springDemo/springboot-04/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/MyTestPython.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/recharge/11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/recharge/2022_10_11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/recharge/recharge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/recharge/recharge_amount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/GoodsTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/GoodsTest2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/MyTest1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/SnowflakeUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/addSeckill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/importKuaiDi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/script/myTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyTestPython/gradle/test01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/mq/Consumer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/mq/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/mq/SyncProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/jike/mq/TestBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/rchz/java8/Stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/classes/com/rchz/java8/Stream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/com/rchz/thread/ABC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/classes/com/rchz/thread/ABC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/logs/access_log.2022-08-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/META-INF/maven/org.example/bean-scope/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/META-INF/maven/org.example/bean-scope/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/web/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/web/contorller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/ioc-container-overview-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/reactive-streams-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/reactor-core-3.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-aop-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-beans-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-context-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-core-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-expression-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-jcl-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-jdbc-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-tx-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-web-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-webflux-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/lib/spring-webmvc-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/work/Tomcat/localhost/ROOT/org/apache/jsp/WEB_002dINF/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.extract/work/Tomcat/localhost/ROOT/org/apache/jsp/WEB_002dINF/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/springDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/META-INF/bean-lifecycle.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/AnnotatedBeanDefinitionParsingDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanInitializationLifecycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanInstantiationLifecycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanLifecycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanMetadataConfigurationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MergedBeanDefinitionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MyDestructionAwareBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MyInstantiationAwareBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/UserHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/ThreadLocalScope$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/ThreadLocalScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/ThreadLocalScopeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/web/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/web/contorller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/META-INF/configuration-metadata.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/META-INF/yaml-property-source-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/META-INF/yaml-property-source-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/AnnotatedSpringIocContainerMetadataConfigurationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/AnnotatedYamlPropertiesSourceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/ExtensibleXmlAuthoringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/PropertiesBeanDefinitionReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/PropertySourceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/UserBeanDefinitionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/UsersNamespaceHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/XmlBaseYamlPropertiesSourceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/YamlPropertySourceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/annotation/Super.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/container/AnnotationApplicationContextAsIocContainerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/container/BeanFactoryAsIocContainerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/domain/SuperUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/enums/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/src/main/java/org/ioc/java/beans/BeanInfoDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springDemo/src/main/java/org/ioc/java/beans/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665382499495</updated>
       <workItem from="1665382500825" duration="16000" />
+      <workItem from="1676346698134" duration="10000" />
     </task>
     <servers />
   </component>
@@ -48,9 +189,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="293" y="311" key="FileChooserDialogImpl" timestamp="1665382514908">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1676346706807">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="293" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1665382514908" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1676346706807" />
   </component>
 </project>

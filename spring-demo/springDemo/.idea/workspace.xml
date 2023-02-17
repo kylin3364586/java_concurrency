@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="javaweb-filter:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="903d31b6-d545-4a02-98f2-b91c77a5ee88" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyFieldInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyInjectionResolutionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyMethodInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AnnotationDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/ApiDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/ApiDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AutowiringByNameDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AutowiringConstructorDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/AwareInterfaceDependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/LazyAnnotationDependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/QualifierAnnotationDependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/UserHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/XmlDependencyConstructorInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/XmlDependencySetterInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/annotation/InjectedUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/annotation/MyAutowired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/target/classes/org/example/thinking/in/spring/ioc/dependency/injection/annotation/UserGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/META-INF/javaweb-filter.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/inter/AbsMyInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/inter/MyInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/inter/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/inter/Test$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/inter/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/listener/OnlineCountListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/classes/com/kylin/servlet/ShowServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/classes/com/kylin/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/classes/com/kylin/listener/OnlineCountListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/classes/com/kylin/servlet/ShowServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-filter/target/javaweb-filter-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/ErrorServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/GetServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/ServletDemo03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/ServletDemo04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/ServletDemo05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/com/kylin/servlet/aa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/ErrorServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/GetServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/ServletDemo03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/ServletDemo04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/ServletDemo05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/com/kylin/servlet/aa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/target/javaweb-servlet01/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/target/classes/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-04/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/MyTestPython.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/recharge/11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/recharge/2022_10_11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/recharge/recharge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/recharge/recharge_amount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/GoodsTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/GoodsTest2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/MyTest1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/SnowflakeUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/addSeckill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/importKuaiDi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/script/myTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyTestPython/gradle/test01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/jike/mq/Consumer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/jike/mq/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/jike/mq/SyncProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/jike/mq/TestBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/rchz/java8/Stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/classes/com/rchz/java8/Stream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/rchz/thread/ABC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/classes/com/rchz/thread/ABC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2022-08-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/bean-scope/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.example/bean-scope/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/web/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/example/thinking/in/spring/ioc/bean/scope/web/contorller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/ioc-container-overview-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/reactive-streams-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/reactor-core-3.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-aop-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-beans-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-context-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-core-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-expression-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-jcl-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-jdbc-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-tx-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-web-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-webflux-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/spring-webmvc-5.2.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/ROOT/org/apache/jsp/WEB_002dINF/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/ROOT/org/apache/jsp/WEB_002dINF/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/META-INF/bean-lifecycle.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/AnnotatedBeanDefinitionParsingDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanInitializationLifecycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanInstantiationLifecycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanLifecycleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanMetadataConfigurationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MergedBeanDefinitionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MyDestructionAwareBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MyInstantiationAwareBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/UserHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/BeanScopeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/ThreadLocalScope$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/ThreadLocalScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/ThreadLocalScopeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/web/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-scope/target/classes/org/example/thinking/in/spring/ioc/bean/scope/web/contorller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ioc/java/beans/BeanInfoDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ioc/java/beans/Person.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/mybatis">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springboot-01">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Tag Library Descriptor" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BI1CqjDY1bACQqbt5PiLZQyxgE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34827587" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-filter\src\main" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-01-servlet\src\main\webapp" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\demo2\spring-bean\src\main\resources\META-INF" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\demo2\spring-bean\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kylin.servlet" />
+      <recent name="org.example.thinking.in.spring.configuration.metadata" />
+      <recent name="org.example.thinking.in.spring.lifecycle" />
+      <recent name="org.example.thinking.in.spring.ioc.bean.scope.web" />
+      <recent name="org.example.thinking.in.spring.ioc.bean.scope" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-filter\src\main\java\webapp" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-filter\src\main\java" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-servlet01\javaweb-servlet01\src\main\webapp" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\mybatis\src\main\resources" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\mybatis\src\main\java\com\example\mybatis\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat9">
+    <configuration name="JDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kylin.db.JDBCTest" />
+      <module name="javaweb-filter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kylin.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kylin.inter.Test" />
+      <module name="javaweb-filter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kylin.inter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kylin.inter.Test2" />
+      <module name="javaweb-filter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kylin.inter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04ApplicationTests.redisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot04" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot04.Springboot04ApplicationTests" />
+      <option name="METHOD_NAME" value="redisTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04ApplicationTests.selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot04" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot04.Springboot04ApplicationTests" />
+      <option name="METHOD_NAME" value="selectList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestStarterApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-test-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.MyTestStarterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTestStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-test-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kylin.MyTestStarterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mybatis.MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Springboot01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot04.Springboot04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="javaweb-filter:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/filter" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springDemo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64347" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="64348" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="jreHome" value="$PROJECT_DIR$/../../../../Java/jdk1.8.0_144" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JProfiler">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="javaweb-filter:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.JDBCTest" />
+      <item itemvalue="JUnit.Springboot04ApplicationTests.selectList" />
+      <item itemvalue="JUnit.Springboot04ApplicationTests.redisTest" />
+      <item itemvalue="Spring Boot.MybatisApplication" />
+      <item itemvalue="Spring Boot.MyTestStarterApplication" />
+      <item itemvalue="Spring Boot.MyTestStarterApplication (1)" />
+      <item itemvalue="Spring Boot.Springboot01Application" />
+      <item itemvalue="Spring Boot.Springboot04Application" />
+      <item itemvalue="Tomcat Server.tomcat9" />
+      <item itemvalue="Application.Test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.JDBCTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.Springboot04ApplicationTests.redisTest" />
+        <item itemvalue="JUnit.Springboot04ApplicationTests.selectList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="903d31b6-d545-4a02-98f2-b91c77a5ee88" name="Default Changelist" comment="" />
+      <created>1656578660095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656578660095</updated>
+      <workItem from="1656578665591" duration="10621000" />
+      <workItem from="1657183380046" duration="3688000" />
+      <workItem from="1657679700851" duration="596000" />
+      <workItem from="1657760749893" duration="6939000" />
+      <workItem from="1658106835206" duration="26510000" />
+      <workItem from="1658711587005" duration="19253000" />
+      <workItem from="1658817583906" duration="7656000" />
+      <workItem from="1658970775107" duration="31551000" />
+      <workItem from="1659919960697" duration="23645000" />
+      <workItem from="1660265859013" duration="32127000" />
+      <workItem from="1660788141484" duration="599000" />
+      <workItem from="1660870253716" duration="598000" />
+      <workItem from="1660887385347" duration="1210000" />
+      <workItem from="1661129405998" duration="599000" />
+      <workItem from="1661216597994" duration="1833000" />
+      <workItem from="1661391954864" duration="595000" />
+      <workItem from="1661907037464" duration="9463000" />
+      <workItem from="1663548541865" duration="20192000" />
+      <workItem from="1664434543946" duration="1307000" />
+      <workItem from="1665196140778" duration="3356000" />
+      <workItem from="1665210349135" duration="1482000" />
+      <workItem from="1665211872531" duration="8849000" />
+      <workItem from="1665382517802" duration="22275000" />
+      <workItem from="1665621785332" duration="635000" />
+      <workItem from="1666246880823" duration="1209000" />
+      <workItem from="1666252743754" duration="7095000" />
+      <workItem from="1675655400165" duration="29727000" />
+      <workItem from="1675849702117" duration="20394000" />
+      <workItem from="1675934761123" duration="18525000" />
+      <workItem from="1676338293993" duration="20000" />
+      <workItem from="1676338339279" duration="367000" />
+      <workItem from="1676338730927" duration="5359000" />
+      <workItem from="1676346650047" duration="47000" />
+      <workItem from="1676346709077" duration="24014000" />
+      <workItem from="1676509137130" duration="3990000" />
+    </task>
+    <task id="LOCAL-00001" summary="one commit">
+      <created>1658817733754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658817733754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="one commit">
+      <created>1659508451018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659508451018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="one commit">
+      <created>1659663943471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659663943471</updated>
+    </task>
+    <task id="LOCAL-00004" summary="one commit">
+      <created>1660028520433</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660028520433</updated>
+    </task>
+    <task id="LOCAL-00005" summary="自定义注解">
+      <created>1660034577733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660034577733</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增加新模块">
+      <created>1660185635544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660185635544</updated>
+    </task>
+    <task id="LOCAL-00007" summary="source">
+      <created>1660613945927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660613945927</updated>
+    </task>
+    <task id="LOCAL-00008" summary="scope">
+      <created>1660631078746</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660631078746</updated>
+    </task>
+    <task id="LOCAL-00009" summary="scope1">
+      <created>1660718791659</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660718791659</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lifecycle commit">
+      <created>1661913248248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661913248248</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bean 实例化、初始化">
+      <created>1663662130911</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663662130911</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bean 实例化、初始化">
+      <created>1665197515193</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665197515193</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bean 实例化、初始化">
+      <created>1665213144291</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665213144291</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bean 销毁">
+      <created>1665218150920</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665218150920</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Bean 配置元信息示例">
+      <created>1665283341252</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665283341252</updated>
+    </task>
+    <task id="LOCAL-00016" summary="extensible XML authoring 扩展示例">
+      <created>1665543456822</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665543456822</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1666578344182</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666578344182</updated>
+    </task>
+    <task id="LOCAL-00018" summary="外部化配置示例">
+      <created>1666579939586</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666579939586</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add">
+      <created>1666596701319</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666596701319</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mybatis demo">
+      <created>1675763982983</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675763982984</updated>
+    </task>
+    <task id="LOCAL-00021" summary="自定义视图解析器">
+      <created>1675855734327</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675855734327</updated>
+    </task>
+    <task id="LOCAL-00022" summary="自定义视图解析器">
+      <created>1675855877683</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675855877683</updated>
+    </task>
+    <task id="LOCAL-00023" summary="视图跳转">
+      <created>1675911816816</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675911816816</updated>
+    </task>
+    <task id="LOCAL-00024" summary="自定义starter 并测试">
+      <created>1675925529180</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675925529180</updated>
+    </task>
+    <task id="LOCAL-00025" summary="自定义redis配置并测试">
+      <created>1676009636216</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676009636216</updated>
+    </task>
+    <task id="LOCAL-00026" summary="servlet 示例">
+      <created>1676355923328</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676355923328</updated>
+    </task>
+    <task id="LOCAL-00027" summary="servletContext 示例">
+      <created>1676360533997</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676360533997</updated>
+    </task>
+    <task id="LOCAL-00028" summary="jsp演示">
+      <created>1676430815551</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676430815551</updated>
+    </task>
+    <task id="LOCAL-00029" summary="过滤器，监听器">
+      <created>1676444550647</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676444550647</updated>
+    </task>
+    <task id="LOCAL-00030" summary="抽象类开发使用技巧之一">
+      <created>1676444595787</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676444595787</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="one commit" />
+    <MESSAGE value="自定义注解" />
+    <MESSAGE value="增加新模块" />
+    <MESSAGE value="source" />
+    <MESSAGE value="scope" />
+    <MESSAGE value="scope1" />
+    <MESSAGE value="lifecycle commit" />
+    <MESSAGE value="bean 实例化、初始化" />
+    <MESSAGE value="bean 销毁" />
+    <MESSAGE value="Bean 配置元信息示例" />
+    <MESSAGE value="extensible XML authoring 扩展示例" />
+    <MESSAGE value="update" />
+    <MESSAGE value="外部化配置示例" />
+    <MESSAGE value="add" />
+    <MESSAGE value="mybatis demo" />
+    <MESSAGE value="自定义视图解析器" />
+    <MESSAGE value="视图跳转" />
+    <MESSAGE value="自定义starter 并测试" />
+    <MESSAGE value="自定义redis配置并测试" />
+    <MESSAGE value="servlet 示例" />
+    <MESSAGE value="servletContext 示例" />
+    <MESSAGE value="jsp演示" />
+    <MESSAGE value="过滤器，监听器" />
+    <MESSAGE value="抽象类开发使用技巧之一" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽象类开发使用技巧之一" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="131" key="#Project_Structure" timestamp="1676433693907">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="131" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1676433693907" />
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676433572424">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1676433572424" />
+    <state x="830" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1676444029649">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1676444029649" />
+    <state x="644" y="234" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1676431003889">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="644" y="234" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1676431003889" />
+    <state x="746" y="194" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1676346156451">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="746" y="194" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.2048.1112@0.0.2048.1112" timestamp="1676346156451" />
+    <state x="498" y="479" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1675926644872">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="498" y="479" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1675926644872" />
+    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1675934922329">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1675934922329" />
+    <state x="824" y="297" key="#toString()_Generation_Settings" timestamp="1675926979978">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="824" y="297" key="#toString()_Generation_Settings/0.0.2048.1112@0.0.2048.1112" timestamp="1675926979978" />
+    <state x="866" y="194" key="CommitChangelistDialog2" timestamp="1676444594726">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="866" y="194" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1676444594726" />
+    <state x="198" y="94" width="1638" height="917" key="DiffContextDialog" timestamp="1676444543976">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="198" y="94" width="1638" height="917" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1676444543976" />
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1676512029984">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1676512029984" />
+    <state width="1776" height="415" key="GridCell.Tab.0.bottom" timestamp="1676513600685">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600685" />
+    <state width="1776" height="415" key="GridCell.Tab.0.center" timestamp="1676513600685">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600685" />
+    <state width="1776" height="415" key="GridCell.Tab.0.left" timestamp="1676513600685">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600685" />
+    <state width="1776" height="415" key="GridCell.Tab.0.right" timestamp="1676513600685">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600685" />
+    <state width="1776" height="415" key="GridCell.Tab.1.bottom" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.1.center" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.1.left" timestamp="1676513600685">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600685" />
+    <state width="1776" height="415" key="GridCell.Tab.1.right" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.2.bottom" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.2.center" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.2.left" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.2.right" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.3.bottom" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.3.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.3.center" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.3.center/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.3.left" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.3.left/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state width="1776" height="415" key="GridCell.Tab.3.right" timestamp="1676513600686">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1776" height="415" key="GridCell.Tab.3.right/0.0.2048.1112@0.0.2048.1112" timestamp="1676513600686" />
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog" timestamp="1675826763804">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="555" y="211" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1675826763804" />
+    <state x="685" y="330" key="NewModule_or_Project.wizard" timestamp="1676433249926">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="685" y="330" key="NewModule_or_Project.wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1676433249926" />
+    <state x="607" y="258" key="RollbackChangesDialog" timestamp="1676367645061">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="607" y="258" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1676367645061" />
+    <state x="526" y="201" key="SettingsEditor" timestamp="1676433251723">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="526" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1676433251723" />
+    <state x="746" y="298" width="561" height="524" key="StructurePopup" timestamp="1676445848967">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="746" y="298" width="561" height="524" key="StructurePopup/0.0.2048.1112@0.0.2048.1112" timestamp="1676445848967" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1676360535300">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1676360535300" />
+    <state x="488" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1676430971528">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="488" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1676430971528" />
+    <state width="106" height="38" key="documentation.popup.size" timestamp="1676360299917">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="106" height="38" key="documentation.popup.size/0.0.2048.1112@0.0.2048.1112" timestamp="1676360299917" />
+    <state x="724" y="288" width="914" height="596" key="find.popup" timestamp="1676512969111">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="724" y="288" width="914" height="596" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1676512969111" />
+    <state x="657" y="217" key="new project wizard" timestamp="1676430878915">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="657" y="217" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1676430878915" />
+    <state x="681" y="259" width="672" height="677" key="run.anything.popup" timestamp="1676288089879">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" width="672" height="677" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1676288089879" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1676354286340">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1676354286340" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class</url>
+          <line>24</line>
+          <properties class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="org.springframework.beans.SimpleTypeConverter" fieldName="typeConverterDelegate" />
+        <PinnedItemInfo typeName="org.springframework.beans.factory.config.DependencyDescriptor" fieldName="field" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springDemo$ResolvableDependencySourceDemo.ic" NAME="ResolvableDependencySourceDemo Coverage Results" MODIFIED="1660186000100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.thinking.in.spring.ioc.dependency.source.*</FILTER>
+    </SUITE>
+  </component>
+</project>

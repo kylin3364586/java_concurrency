@@ -10,14 +10,27 @@
         <module name="spring-bean" />
         <module name="dependency-source" />
         <module name="ioc-container-overview" />
+        <module name="javaweb-servlet01" />
         <module name="dependency-lookup" />
-        <module name="configuration-metadata" />
-        <module name="bean-scope" />
         <module name="bean-lifecycle" />
+        <module name="configuration-metadata" />
+        <module name="javaweb-filter" />
+        <module name="bean-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="thinking-in-spring" target="8" />
+      <module name="bean-lifecycle" target="8" />
+      <module name="bean-scope" target="8" />
+      <module name="configuration-metadata" target="8" />
+      <module name="dependency-injection" target="8" />
+      <module name="dependency-lookup" target="8" />
+      <module name="dependency-source" target="8" />
+      <module name="ioc-container-overview" target="8" />
+      <module name="javaweb-01-servlet" target="1.8" />
+      <module name="javaweb-filter" target="1.8" />
+      <module name="javaweb-servlet01" target="1.8" />
+      <module name="spring-bean" target="8" />
+      <module name="springDemo" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
