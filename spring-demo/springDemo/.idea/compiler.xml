@@ -7,15 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dependency-injection" />
+        <module name="configuration-metadata" />
         <module name="spring-bean" />
         <module name="dependency-source" />
         <module name="ioc-container-overview" />
-        <module name="javaweb-servlet01" />
+        <module name="redis-01-jedis" />
         <module name="dependency-lookup" />
-        <module name="bean-lifecycle" />
-        <module name="configuration-metadata" />
+        <module name="javaweb-servlet01" />
         <module name="javaweb-filter" />
         <module name="bean-scope" />
+        <module name="bean-lifecycle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="javaweb-01-servlet" target="1.8" />
       <module name="javaweb-filter" target="1.8" />
       <module name="javaweb-servlet01" target="1.8" />
+      <module name="redis-01-jedis" target="1.8" />
       <module name="spring-bean" target="8" />
       <module name="springDemo" target="8" />
     </bytecodeTargetLevel>

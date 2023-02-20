@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/pom.xml" />
         <option value="$PROJECT_DIR$/javaweb-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-01-jedis/pom.xml" />
       </list>
     </option>
   </component>
