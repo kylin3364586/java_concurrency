@@ -2,21 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ioc-container-overview" />
+        <module name="dependency-source" />
+        <module name="bean-scope" />
+        <module name="javaweb-filter" />
+        <module name="springboot-01-redis" />
+        <module name="bean-lifecycle" />
+        <module name="spring-bean" />
+        <module name="dependency-lookup" />
         <module name="dependency-injection" />
         <module name="configuration-metadata" />
-        <module name="spring-bean" />
-        <module name="dependency-source" />
-        <module name="ioc-container-overview" />
-        <module name="redis-01-jedis" />
-        <module name="dependency-lookup" />
+        <module name="springboot-04" />
+        <module name="springboot-01" />
         <module name="javaweb-servlet01" />
-        <module name="javaweb-filter" />
-        <module name="bean-scope" />
-        <module name="bean-lifecycle" />
+        <module name="redis-01-jedis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,7 +36,17 @@
       <module name="javaweb-servlet01" target="1.8" />
       <module name="redis-01-jedis" target="1.8" />
       <module name="spring-bean" target="8" />
+      <module name="springboot-01" target="1.8" />
+      <module name="springboot-01-redis" target="1.8" />
+      <module name="springboot-04" target="1.8" />
       <module name="springDemo" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-01" options="-parameters" />
+      <module name="springboot-01-redis" options="-parameters" />
+      <module name="springboot-04" options="-parameters" />
+    </option>
   </component>
 </project>
