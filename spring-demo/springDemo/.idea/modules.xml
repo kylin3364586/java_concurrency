@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/ioc-container-overview/ioc-container-overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter.iml" filepath="$PROJECT_DIR$/javaweb-filter/javaweb-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/javaweb-servlet01.iml" filepath="$PROJECT_DIR$/javaweb-servlet01/javaweb-servlet01/javaweb-servlet01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-test-starter/my-test-starter.iml" filepath="$PROJECT_DIR$/my-test-starter/my-test-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-01-jedis/redis-01-jedis.iml" filepath="$PROJECT_DIR$/redis-01-jedis/redis-01-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/spring-bean/spring-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springDemo.iml" filepath="$PROJECT_DIR$/.idea/springDemo.iml" />
