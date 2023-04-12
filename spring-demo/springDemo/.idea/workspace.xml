@@ -5,40 +5,83 @@
       <artifact name="javaweb-filter:war" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="903d31b6-d545-4a02-98f2-b91c77a5ee88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/mybatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/src/main/java/com/kylin/controller/CacheTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/src/main/java/com/kylin/controller/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/target/classes/com/kylin/controller/CacheTestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/target/classes/com/kylin/controller/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-redis/target/classes/logback.xml" afterDir="false" />
+    <list default="true" id="903d31b6-d545-4a02-98f2-b91c77a5ee88" name="Default Changelist" comment="redis缓存 击穿、穿透、雪崩">
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/META-INF/bean-constructor-dependency-injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/META-INF/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/AnnotatedBeanDefinitionParsingDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanInitializationLifecycleDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanInstantiationLifecycleDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanLifecycleDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/BeanMetadataConfigurationDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MergedBeanDefinitionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MyDestructionAwareBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/MyInstantiationAwareBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/target/classes/org/example/thinking/in/spring/lifecycle/UserHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/META-INF/spring.handlers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/META-INF/spring.schemas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/META-INF/user-bean-definitions.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/META-INF/user-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/META-INF/user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/META-INF/yaml-property-source-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/AnnotatedSpringIocContainerMetadataConfigurationDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/AnnotatedYamlPropertiesSourceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/ExtensibleXmlAuthoringDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/PropertiesBeanDefinitionReaderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/PropertySourceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/UserBeanDefinitionParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/UsersNamespaceHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/XmlBaseYamlPropertiesSourceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/YamlPropertySourceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/META-INF/dependency-injection-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/META-INF/dependency-lookup-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/META-INF/user-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/annotation/Super.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/container/AnnotationApplicationContextAsIocContainerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/container/BeanFactoryAsIocContainerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/domain/SuperUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/enums/City.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/target/classes/org/example/thinking/in/spring/ioc/overview/dependency/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/main/java/com/rchz/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/main/java/com/rchz/thread/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/mybatis/bean/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/mybatis/mapper/UserMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/classes/com/mybatis/test/Demo1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/resources/database.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/resources/mapper/UserMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../out/production/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kk_my_test_starter_0_0_1_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-metadata/target/classes/org/example/thinking/in/spring/configuration/metadata/BeanConfigurationMetadataDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-redis/springboot-01-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-redis/springboot-01-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-redis/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-redis/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-01-redis/target/test-classes/com/kylin/Springboot01RedisApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-redis/target/test-classes/com/kylin/Springboot01RedisApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01-redis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-redis/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01-redis/target/classes/com/kylin/controller/CacheTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-redis/target/classes/com/kylin/controller/CacheTestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +168,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-01-redis/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -143,8 +186,11 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.kylin.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-filter\src\main" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-01-servlet\src\main\webapp" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\demo2\spring-bean\src\main\resources\META-INF" />
+      <recent name="D:\ide_workspace\java_concurrency\spring-demo\demo2\spring-bean\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.kylin" />
@@ -163,33 +209,17 @@
       <recent name="org.example.thinking.in.spring.ioc.bean.scope.web" />
       <recent name="org.example.thinking.in.spring.ioc.bean.scope" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-filter\src\main" />
-      <recent name="D:\ide_workspace\java_concurrency\spring-demo\springDemo\javaweb-01-servlet\src\main\webapp" />
-      <recent name="D:\ide_workspace\java_concurrency\spring-demo\demo2\spring-bean\src\main\resources\META-INF" />
-      <recent name="D:\ide_workspace\java_concurrency\spring-demo\demo2\spring-bean\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kylin.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot01RedisApplication">
+  <component name="RunManager" selected="Application.PropertySourceDemo">
     <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.thinking.in.spring.ioc.overview.dependency.lookup.DependencyLookupDemo" />
       <module name="ioc-container-overview" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.thinking.in.spring.ioc.overview.dependency.lookup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependencySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.thinking.in.spring.ioc.dependency.source.DependencySourceDemo" />
-      <module name="dependency-source" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.thinking.in.spring.ioc.dependency.source.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectProviderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.thinking.in.spring.dependency.lookup.ObjectProviderDemo" />
-      <module name="dependency-lookup" />
+    <configuration name="PropertySourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.thinking.in.spring.configuration.metadata.PropertySourceDemo" />
+      <module name="configuration-metadata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.thinking.in.spring.dependency.lookup.*" />
+          <option name="PATTERN" value="org.example.thinking.in.spring.configuration.metadata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,6 +259,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.thinking.in.spring.ioc.dependency.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.thinking.in.spring.lifecycle.Test" />
+      <module name="bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.thinking.in.spring.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,6 +448,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
+      <item itemvalue="Application.ResolvableDependencySourceDemo" />
+      <item itemvalue="Application.DependencyLookupDemo" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.MybatisApplication" />
       <item itemvalue="Spring Boot.MyTestStarterApplication" />
       <item itemvalue="Spring Boot.MyTestStarterApplication (1)" />
@@ -412,19 +459,15 @@
       <item itemvalue="Spring Boot.Springboot04Application" />
       <item itemvalue="Spring Boot.Springboot01RedisApplication" />
       <item itemvalue="Tomcat Server.tomcat9" />
-      <item itemvalue="Application.ObjectProviderDemo" />
-      <item itemvalue="Application.DependencySourceDemo" />
-      <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
-      <item itemvalue="Application.ResolvableDependencySourceDemo" />
-      <item itemvalue="Application.DependencyLookupDemo" />
+      <item itemvalue="Application.PropertySourceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PropertySourceDemo" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.DependencyLookupDemo" />
         <item itemvalue="Application.ResolvableDependencySourceDemo" />
         <item itemvalue="Application.ExternalConfigurationDependencySourceDemo" />
-        <item itemvalue="Application.DependencySourceDemo" />
-        <item itemvalue="Application.ObjectProviderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +517,11 @@
       <workItem from="1676346709077" duration="24014000" />
       <workItem from="1676509137130" duration="16932000" />
       <workItem from="1677581794504" duration="570000" />
-      <workItem from="1677634071531" duration="19563000" />
+      <workItem from="1677634071531" duration="25846000" />
+      <workItem from="1678243852129" duration="2127000" />
+      <workItem from="1678863531530" duration="3262000" />
+      <workItem from="1678928868325" duration="595000" />
+      <workItem from="1679469111877" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="one commit">
       <created>1658817733754</created>
@@ -693,14 +740,38 @@
       <option name="project" value="LOCAL" />
       <updated>1676878014222</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="redis缓存 击穿、穿透、雪崩">
+      <created>1677808704958</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677808704958</updated>
+    </task>
+    <task id="LOCAL-00033" summary="remove compile file">
+      <created>1677808947910</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677808947910</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="one commit" />
     <MESSAGE value="自定义注解" />
     <MESSAGE value="增加新模块" />
     <MESSAGE value="source" />
@@ -724,7 +795,9 @@
     <MESSAGE value="过滤器，监听器" />
     <MESSAGE value="抽象类开发使用技巧之一" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="redis缓存 击穿、穿透、雪崩" />
+    <MESSAGE value="remove compile file" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove compile file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="131" key="#Project_Structure" timestamp="1676433693907">
@@ -775,70 +848,70 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="780" y="262" width="1039" height="587" key="#xdebugger.evaluate/0.0.2048.1112@0.0.2048.1112" timestamp="1676886099772" />
-    <state x="866" y="194" key="CommitChangelistDialog2" timestamp="1676878013605">
+    <state x="191" y="108" key="CommitChangelistDialog2" timestamp="1677808946979">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="866" y="194" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1676878013605" />
-    <state width="1063" height="466" key="DebuggerActiveHint" timestamp="1676886135137">
+    <state x="191" y="108" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1677808946979" />
+    <state width="1063" height="466" key="DebuggerActiveHint" timestamp="1679473906900">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1063" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1676886135137" />
-    <state x="198" y="94" width="1638" height="917" key="DiffContextDialog" timestamp="1676626026291">
+    <state width="1063" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1679473906900" />
+    <state x="198" y="94" width="1638" height="917" key="DiffContextDialog" timestamp="1679473841457">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="198" y="94" width="1638" height="917" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1676626026291" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1677636862681">
+    <state x="198" y="94" width="1638" height="917" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1679473841457" />
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1678247604221">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1677636862681" />
-    <state width="2005" height="321" key="GridCell.Tab.0.bottom" timestamp="1677746209147">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1678247604221" />
+    <state width="2004" height="321" key="GridCell.Tab.0.bottom" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="321" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209147" />
-    <state width="2005" height="321" key="GridCell.Tab.0.center" timestamp="1677746209147">
+    <state width="2004" height="321" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.0.center" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="321" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209147" />
-    <state width="2005" height="321" key="GridCell.Tab.0.left" timestamp="1677746209147">
+    <state width="2004" height="321" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.0.left" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="321" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209147" />
-    <state width="2005" height="321" key="GridCell.Tab.0.right" timestamp="1677746209147">
+    <state width="2004" height="321" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.0.right" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="321" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209147" />
-    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.1.bottom" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.1.center" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.1.left" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.1.right" timestamp="1679537061637">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.2.bottom" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061637" />
+    <state width="2004" height="321" key="GridCell.Tab.2.bottom" timestamp="1679537061610">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.2.center" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061610" />
+    <state width="2004" height="321" key="GridCell.Tab.2.center" timestamp="1679537061610">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.2.left" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061610" />
+    <state width="2004" height="321" key="GridCell.Tab.2.left" timestamp="1679537061610">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
-    <state width="0" height="0" key="GridCell.Tab.2.right" timestamp="1677746209106">
+    <state width="2004" height="321" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061610" />
+    <state width="2004" height="321" key="GridCell.Tab.2.right" timestamp="1679537061610">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="0" height="0" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1677746209106" />
+    <state width="2004" height="321" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1679537061610" />
     <state width="1776" height="415" key="GridCell.Tab.3.bottom" timestamp="1677460821060">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -863,34 +936,34 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="685" y="330" key="NewModule_or_Project.wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1677636864203" />
-    <state x="607" y="258" key="RollbackChangesDialog" timestamp="1676367645061">
+    <state x="607" y="258" key="RollbackChangesDialog" timestamp="1678272285516">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="607" y="258" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1676367645061" />
+    <state x="607" y="258" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1678272285516" />
     <state x="526" y="203" width="1038" height="847" key="SettingsEditor" timestamp="1677740062123">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="203" width="1038" height="847" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1677740062123" />
-    <state x="746" y="298" width="561" height="524" key="StructurePopup" timestamp="1677741432177">
+    <state x="746" y="298" width="561" height="524" key="StructurePopup" timestamp="1679473237434">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="746" y="298" width="561" height="524" key="StructurePopup/0.0.2048.1112@0.0.2048.1112" timestamp="1677741432177" />
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1677636885621">
+    <state x="746" y="298" width="561" height="524" key="StructurePopup/0.0.2048.1112@0.0.2048.1112" timestamp="1679473237434" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2" timestamp="1677808951258">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="276" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1677636885621" />
+    <state x="617" y="276" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1677808951258" />
     <state x="488" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1676430971528">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="488" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1676430971528" />
-    <state width="106" height="38" key="documentation.popup.size" timestamp="1677652590308">
+    <state width="106" height="38" key="documentation.popup.size" timestamp="1679469688254">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="106" height="38" key="documentation.popup.size/0.0.2048.1112@0.0.2048.1112" timestamp="1677652590308" />
-    <state x="724" y="288" width="914" height="630" key="find.popup" timestamp="1677742471781">
+    <state width="106" height="38" key="documentation.popup.size/0.0.2048.1112@0.0.2048.1112" timestamp="1679469688254" />
+    <state x="724" y="288" width="914" height="630" key="find.popup" timestamp="1679537058185">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="724" y="288" width="914" height="630" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1677742471781" />
+    <state x="724" y="288" width="914" height="630" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1679537058185" />
     <state x="657" y="217" key="new project wizard" timestamp="1676878099095">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -899,10 +972,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="681" y="259" width="672" height="677" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1676288089879" />
-    <state x="1014" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1677658644852">
+    <state x="1014" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1679472996378">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1014" y="245" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1677658644852" />
+    <state x="1014" y="245" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1679472996378" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
