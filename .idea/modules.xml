@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.rchz.java_concurrency.iml" filepath="$PROJECT_DIR$/.idea/modules/com.rchz.java_concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.rchz.java_concurrency.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.rchz.java_concurrency.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.rchz.java_concurrency.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.rchz.java_concurrency.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idea_workspases.com.rchz.java_concurrency.iml" filepath="$PROJECT_DIR$/.idea/modules/idea_workspases.com.rchz.java_concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idea_workspases.com.rchz.java_concurrency.main.iml" filepath="$PROJECT_DIR$/.idea/modules/idea_workspases.com.rchz.java_concurrency.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idea_workspases.com.rchz.java_concurrency.test.iml" filepath="$PROJECT_DIR$/.idea/modules/idea_workspases.com.rchz.java_concurrency.test.iml" />
+    </modules>
+  </component>
+</project>

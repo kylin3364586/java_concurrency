@@ -1,0 +1,9 @@
+FROM openjdk:8-jdk-slim
+#作者
+LABEL maintainer=kylin
+
+#复制
+COPY target/*.jar /app.jar
+
+#启动命令
+ENTRYPOINT["java","-jar","/app.jar"]

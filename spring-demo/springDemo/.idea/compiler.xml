@@ -7,48 +7,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-01-jedis" />
-        <module name="ioc-container-overview" />
-        <module name="my-test-starter" />
-        <module name="dependency-source" />
-        <module name="javaweb-filter" />
-        <module name="springboot-01-redis" />
-        <module name="configuration-metadata" />
-        <module name="bean-lifecycle" />
-        <module name="spring-bean" />
-        <module name="dependency-lookup" />
         <module name="dependency-injection" />
-        <module name="mybatis" />
-        <module name="springboot-04" />
         <module name="springboot-01" />
+        <module name="dependency-lookup" />
+        <module name="mybatis" />
+        <module name="javaweb-filter" />
+        <module name="configuration-metadata" />
+        <module name="dependency-source" />
+        <module name="my-test-starter" />
+        <module name="springboot-01-redis" />
+        <module name="springboot-04" />
         <module name="javaweb-servlet01" />
+        <module name="spring-bean" />
+        <module name="redis-01-jedis" />
+        <module name="bean-lifecycle" />
+        <module name="ioc-container-overview" />
         <module name="bean-scope" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bean-lifecycle" target="8" />
-      <module name="bean-scope" target="8" />
-      <module name="configuration-metadata" target="8" />
-      <module name="dependency-injection" target="8" />
-      <module name="dependency-lookup" target="8" />
-      <module name="dependency-source" target="8" />
-      <module name="ioc-container-overview" target="8" />
       <module name="javaweb-01-servlet" target="1.8" />
-      <module name="javaweb-filter" target="1.8" />
-      <module name="javaweb-servlet01" target="1.8" />
-      <module name="my-test-starter" target="1.8" />
-      <module name="mybatis" target="1.8" />
-      <module name="redis-01-jedis" target="1.8" />
-      <module name="spring-bean" target="8" />
-      <module name="springboot-01" target="1.8" />
-      <module name="springboot-01-redis" target="1.8" />
-      <module name="springboot-04" target="1.8" />
-      <module name="springDemo" target="8" />
+      <module name="spring-boot-depcker" target="1.8" />
+      <module name="spring-boot-docker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mybatis" options="-parameters" />
+      <module name="spring-boot-depcker" options="-parameters" />
       <module name="springboot-01" options="-parameters" />
       <module name="springboot-01-redis" options="-parameters" />
       <module name="springboot-04" options="-parameters" />
